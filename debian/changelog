@@ -1,0 +1,5 @@
+python-xstatic-angular-mock (1.2.16.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #757789)
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 11 Aug 2014 17:32:28 +0800

@@ -1,0 +1,28 @@
+Description: Debianize the package
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2014-08-11
+
+--- python-xstatic-angular-mock-1.2.16.1.orig/xstatic/pkg/angular_mock/__init__.py
++++ python-xstatic-angular-mock-1.2.16.1/xstatic/pkg/angular_mock/__init__.py
+@@ -11,7 +11,7 @@ NAME = __name__.split('.')[-1] # package
+                                # please use a all-lowercase valid python
+                                # package name
+ 
+-VERSION = '1.2.1' # version of the packaged files, please use the upstream
++VERSION = '1.2.16' # version of the packaged files, please use the upstream
+                   # version number
+ BUILD = '1' # our package build number, so we can release new builds
+              # with fixes for xstatic stuff.
+@@ -34,9 +34,9 @@ HOMEPAGE = 'http://angularjs.org/'
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/angular_mock'
++BASE_DIR = '/usr/share/javascript/angular.js/angular-mocks.min.js'
+ 
+ LOCATIONS = {
+     # CDN locations (if no public CDN exists, use an empty dict)
