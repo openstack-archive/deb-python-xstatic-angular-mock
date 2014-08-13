@@ -12,7 +12,7 @@ Build-Conflicts: python-xstatic, python3-xstatic
 Standards-Version: 3.9.5
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-angular-mock.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-angular-mock.git
-Homepage: https://bitbucket.org/thesheep/xstatic-angular-mock
+Homepage: https://github.com/stackforge/xstatic-angular-mock
 
 Package: python-xstatic-angular-mock
 Architecture: all
