@@ -1,3 +1,10 @@
+python-xstatic-angular-mock (1.2.23.1-1) unstable; urgency=medium
+
+  * Producing new package as the libjs-angularjs package got updated. Thanks to
+    Ralf Treinen <treinen@free.fr> for the bug report (Closes: #761107).
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 11 Sep 2014 06:55:44 +0000
+
 python-xstatic-angular-mock (1.2.16.1-2) unstable; urgency=medium
 
   * Updated upstream VCS URLs.

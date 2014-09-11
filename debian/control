@@ -17,8 +17,8 @@ Homepage: https://github.com/stackforge/xstatic-angular-mock
 Package: python-xstatic-angular-mock
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libjs-angularjs (<< 1.2.17),
-         libjs-angularjs (>= 1.2.16),
+Depends: libjs-angularjs (<< 1.2.24),
+         libjs-angularjs (>= 1.2.23),
          python-xstatic,
          python-xstatic-angular,
          ${misc:Depends},
@@ -50,8 +50,8 @@ Description: Angular JS Mock XStatic support - Python 2.x
 Package: python3-xstatic-angular-mock
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libjs-angularjs (<< 1.2.17),
-         libjs-angularjs (>= 1.2.16),
+Depends: libjs-angularjs (<< 1.2.24),
+         libjs-angularjs (>= 1.2.23),
          python3-xstatic,
          python3-xstatic-angular,
          ${misc:Depends},

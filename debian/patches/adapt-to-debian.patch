@@ -10,7 +10,7 @@ Last-Update: 2014-08-11
                                 # package name
  
 -VERSION = '1.2.1' # version of the packaged files, please use the upstream
-+VERSION = '1.2.16' # version of the packaged files, please use the upstream
++VERSION = '1.2.23' # version of the packaged files, please use the upstream
                    # version number
  BUILD = '1' # our package build number, so we can release new builds
               # with fixes for xstatic stuff.
