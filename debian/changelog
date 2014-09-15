@@ -1,3 +1,9 @@
+python-xstatic-angular-mock (1.2.23.1-2) unstable; urgency=medium
+
+  * Relaxes version dependency.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 16 Sep 2014 01:24:54 +0800
+
 python-xstatic-angular-mock (1.2.23.1-1) unstable; urgency=medium
 
   * Producing new package as the libjs-angularjs package got updated. Thanks to
