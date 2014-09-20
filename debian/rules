@@ -18,8 +18,8 @@ override_dh_install:
 		python$$pyvers setup.py install --install-layout=deb \
 			--root $(CURDIR)/debian/python3-xstatic-angular-mock; \
 	done
-	rm -rf $(CURDIR)/debian/python*-xstatic-angular/usr/lib/python*/dist-packages/xstatic/pkg/angular_mock/data
-	rm -rf $(CURDIR)/debian/python*-xstatic-angular/usr/lib/python*/dist-packages/*.pth
+	rm -rf $(CURDIR)/debian/python*-xstatic-angular-mock/usr/lib/python*/dist-packages/xstatic/pkg/angular_mock/data
+	rm -rf $(CURDIR)/debian/python*-xstatic-angular-mock/usr/lib/python*/dist-packages/*.pth
 
 override_dh_clean:
 	dh_clean -O--buildsystem=python_distutils
