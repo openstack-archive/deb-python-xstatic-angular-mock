@@ -22,7 +22,7 @@ Last-Update: 2014-08-11
 +#BASE_DIR = join(dirname(__file__), 'data')
  # linux package maintainers just can point to their file locations like this:
 -#BASE_DIR = '/usr/share/javascript/angular_mock'
-+BASE_DIR = '/usr/share/javascript/angular.js/angular-mocks.min.js'
++BASE_DIR = '/usr/share/javascript/angular.js'
  
  LOCATIONS = {
      # CDN locations (if no public CDN exists, use an empty dict)
