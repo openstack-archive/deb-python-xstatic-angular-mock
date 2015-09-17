@@ -1,3 +1,11 @@
+python-xstatic-angular-mock (1.2.23.1-5) UNRELEASED; urgency=medium
+
+  * Remove libjs-angularjs package upper cap in Depends field.
+  * Remove Pre-Depends field from debian/control .
+  * Add myself to Uploaders field.
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Thu, 17 Sep 2015 23:18:54 +0300
+
 python-xstatic-angular-mock (1.2.23.1-4) unstable; urgency=medium
 
   * Fixed wrong BASE_DIR.
