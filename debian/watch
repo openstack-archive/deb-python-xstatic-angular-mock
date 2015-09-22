@@ -1,3 +1,2 @@
 version=3
-http://pypi.python.org/packages/source/X/XStatic-Angular XStatic-Angular-(.*).tar.gz
-
+http://pypi.debian.net/XStatic-Angular/XStatic-Angular-(.*).tar.gz

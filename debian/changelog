@@ -1,10 +1,18 @@
-python-xstatic-angular-mock (1.2.23.1-5) UNRELEASED; urgency=medium
+python-xstatic-angular-mock (1.2.23.1-5) unstable; urgency=medium
 
+  [ Ivan Udovichenko ]
   * Remove libjs-angularjs package upper cap in Depends field.
   * Remove Pre-Depends field from debian/control .
   * Add myself to Uploaders field.
 
- -- Ivan Udovichenko <iudovichenko@mirantis.com>  Thu, 17 Sep 2015 23:18:54 +0300
+  [ Thomas Goirand ]
+  * Added missing dh-python build-depends.
+  * Removed version for python-all build-depends.
+  * Using PyPi redirector instead of broken PyPi dir.
+  * Fixed gbp.conf.
+  * Standards-Version: is now 3.9.6.
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 22 Sep 2015 07:53:27 +0000
 
 python-xstatic-angular-mock (1.2.23.1-4) unstable; urgency=medium
 

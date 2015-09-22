@@ -5,12 +5,13 @@ Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Uploaders: Thomas Goirand <zigo@debian.org>,
            Ivan Udovichenko <iudovichenko@mirantis.com>,
 Build-Depends: debhelper (>= 9),
-               python-all (>= 2.6.6-3~),
+               dh-python,
+               python-all,
                python-setuptools,
                python3-all,
                python3-setuptools
 Build-Conflicts: python-xstatic, python3-xstatic
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-angular-mock.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-angular-mock.git
 Homepage: https://github.com/stackforge/xstatic-angular-mock
