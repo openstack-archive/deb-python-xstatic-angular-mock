@@ -1,0 +1,10 @@
+Code-Review+2: Julie Pichon <jpichon@redhat.com>
+Code-Review+1: Thomas Goirand <thomas@goirand.fr>
+Code-Review+2: Akihiro Motoki <amotoki@gmail.com>
+Workflow+1: Akihiro Motoki <amotoki@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 06 Oct 2014 06:44:35 +0000
+Reviewed-on: https://review.openstack.org/113264
+Project: openstack/deb-python-xstatic-angular-mock
+Branch: refs/heads/master
